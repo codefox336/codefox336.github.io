@@ -11,4 +11,5 @@ jobs:
 
       - name: lint-md-github-action
         uses: lint-md/github-action@v0.0.2
-        files: '../../../codefox336.github.io'
+        with:        
+          files: '../../hello.md **/README.md'
