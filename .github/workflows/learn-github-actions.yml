@@ -17,7 +17,7 @@ on:
     branches:
       - master
 
-name: "Trigger: Push action"
+name:  Push action
 permissions: {}
 
 jobs:
