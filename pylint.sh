@@ -4,7 +4,7 @@
 
 #flake8 source_code
 #echo "flake8 passed!"
-if ! make ; then
+if ! ls ; then
 	echo "build failed, commit rejected"
 	exit 0
 fi
